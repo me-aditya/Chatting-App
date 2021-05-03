@@ -26,7 +26,10 @@ class _WelcomeScreenState extends State<WelcomeScreen>
       upperBound: 1.0,
     );
 
-    animation =ColorTween(begin: Colors.red,end:Colors.blue).animate(controller);
+    animation = ColorTween(
+      begin: Colors.blueGrey,
+      end: Colors.white,
+    ).animate(controller);
 
     controller.forward();
 
@@ -37,8 +40,6 @@ class _WelcomeScreenState extends State<WelcomeScreen>
     //     controller.forward();
     //   }
     // });
-
-
 
     controller.addListener(() {
       setState(() {});
@@ -62,7 +63,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                   tag: 'logo',
                   child: Container(
                     child: Image.asset('images/logo.png'),
-                    height:60.0,
+                    height: 60.0,
                   ),
                 ),
                 Text(
