@@ -12,7 +12,10 @@ class _ChatScreenState extends State<ChatScreen> {
 
   final _auth = FirebaseAuth.instance;
 
-  
+  void getCurerntUser()  {
+    final user =  _auth.currentUser ;
+    final uid = user.uid ;
+  }
 
   @override
   Widget build(BuildContext context) {
