@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "273729356344",
+    "project_id": "flash-chat-12ef0",
+    "storage_bucket": "flash-chat-12ef0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273729356344:android:2684e145b50493afd19ccd",
+        "android_client_info": {
+          "package_name": "com.adityarathi.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273729356344-305o77m452sj5ss9mghuktd3v0651ggf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCWxeQwHXJx1M1hPBJ60Y1QgOH1IKBsQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273729356344-305o77m452sj5ss9mghuktd3v0651ggf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
